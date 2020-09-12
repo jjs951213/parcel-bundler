@@ -60,3 +60,5 @@ const render = () => {
   
   
   render();
+  
+store.subscribe(render);
